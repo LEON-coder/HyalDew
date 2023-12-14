@@ -370,3 +370,17 @@ header {
 	flex-shrink: 0;
 	background : #3A4152;
 }
+
+footer {
+	width      : 100%;
+	background : #3A4152;
+	height     : 269.065px;
+	flex-shrink: 0;
+	margin-top : 69px;
+}
+
+.footer__wrap {
+	width      : 764.653px;
+	height     : 256.372px;
+	flex-shrink: 0;
+}
