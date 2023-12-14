@@ -240,3 +240,133 @@ header {
 	height     : 43.025px;
 	flex-shrink: 0;
 }
+
+.how-become-client {
+	display   : flex;
+	margin-top: 54px;
+}
+
+.how-become-client__wrap {
+	display       : flex;
+	flex-direction: column;
+}
+
+.how-become-client__form-blocks {
+	display        : flex;
+	margin-top     : 26px;
+	width          : 100%;
+	justify-content: space-between;
+}
+
+.how-become-client__form-blocks_offer-text {
+	width      : 223.689px;
+	height     : 87.235px;
+	flex-shrink: 0;
+	color      : #3A4152;
+	font-family: 'DIN Pro';
+	font-size  : 12px;
+	font-style : normal;
+	font-weight: 400;
+	line-height: normal;
+}
+
+.how-become-client__form {
+	display       : flex;
+	flex-direction: column;
+}
+
+.form__input {
+	flex-shrink   : 0;
+	color         : #D5C6A3;
+	font-family   : 'DIN Pro';
+	font-size     : 12px;
+	font-style    : normal;
+	font-weight   : 500;
+	line-height   : normal;
+	width         : 319.974px;
+	border        : transparent;
+	border-bottom : 1px solid #B2B2B2;
+	padding-bottom: 10px;
+	margin-top    : 20px;
+}
+
+.form__input:first-child {
+	margin-top: 0;
+}
+
+.form__input::-webkit-input-placeholder {
+	color: #D5C6A3;
+}
+
+.form__input::-moz-placeholder {
+	color: #D5C6A3;
+}
+
+.form__input:-moz-placeholder {
+	color: #D5C6A3;
+}
+
+.form__input:-ms-input-placeholder {
+	color: #D5C6A3;
+}
+
+.form__input-text {
+	width         : 325.473px;
+	border-radius : 10px;
+	border        : 0.5px solid #D0BE96;
+	margin-top    : 23px;
+	padding-top   : 19px;
+	display       : flex;
+	padding-left  : 25px;
+	padding-bottom: 75px;
+}
+
+.form__input-text::-webkit-input-placeholder {
+	color: #D5C6A3;
+}
+
+.form__checkbox-block-pay {
+	display   : flex;
+	margin-top: 23px;
+}
+
+#agreement {
+	width  : 14.185px;
+	height : 13.673px;
+	display: flex;
+	border : 0.5px solid #3A4152;
+}
+
+.checkbox-agreement-label {
+	display    : flex;
+	margin-left: 10px;
+	width      : 106.076px;
+	height     : 35.643px;
+	flex-shrink: 0;
+	color      : #3A4152;
+	font-family: DIN Pro;
+	font-size  : 12px;
+	font-style : normal;
+	font-weight: 400;
+	line-height: normal;
+}
+
+.form__checkbox-block {
+	display: flex;
+}
+
+#button-pay {
+	width      : 62.564px;
+	height     : 18.894px;
+	flex-shrink: 0;
+	color      : #FFF;
+	font-family: DIN Pro;
+	font-size  : 16px;
+	font-style : normal;
+	font-weight: 500;
+	line-height: normal;
+	width      : 189.016px;
+	height     : 42.591px;
+	flex-shrink: 0;
+	background : #3A4152;
+}
