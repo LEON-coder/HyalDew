@@ -1,0 +1,242 @@
+@font-face {
+	font-family: 'DIN Pro';
+	font-style : normal;
+	src        : url('../fonts/DIN-Pro/DINPro-Medium.woff');
+}
+
+
+
+
+* {
+	margin    : 0;
+	padding   : 0;
+	box-sizing: border-box;
+}
+
+
+body {
+	display       : flex;
+	flex-direction: column;
+	width         : 100%;
+	align-items   : center;
+}
+
+.content {
+	display        : flex;
+	background     : #FFF;
+	justify-content: center;
+	flex-direction : column;
+	width          : 736.805px;
+	align-items    : center;
+}
+
+header {
+	display    : flex;
+	width      : 736.805px;
+	height     : 127.336px;
+	flex-shrink: 0;
+	margin-top : 40px;
+}
+
+.header__logo_block {
+	display       : flex;
+	flex-direction: column;
+}
+
+.info-partners {
+	display: flex;
+}
+
+.info-partners__wrap {
+	display       : flex;
+	flex-direction: column;
+}
+
+.info-partners__headline {
+	width      : 424.715px;
+	height     : 39.508px;
+	flex-shrink: 0;
+	color      : #3A4152;
+	font-family: 'DIN Pro';
+	font-size  : 27px;
+	font-style : normal;
+	font-weight: 500;
+	line-height: normal;
+}
+
+.info-frame {
+	position       : absolute;
+	display        : flex;
+	justify-content: center;
+	align-items    : center;
+}
+
+.info-partners__headline_line {
+	width      : 621.981px;
+	height     : 2.501px;
+	flex-shrink: 0;
+	background : #D0BE96;
+	margin-top : 6px;
+}
+
+.info-partners__blocks {
+	display        : flex;
+	width          : 100%;
+	justify-content: space-between;
+	margin-top     : 25px;
+}
+
+.info-partner {
+	display        : flex;
+	justify-content: center;
+	align-items    : center;
+	width          : 192.57px;
+	height         : 70.645px;
+	flex-shrink    : 0;
+	position       : relative;
+}
+
+.info-partner-img {}
+
+.hepru {
+	width      : 108.482px;
+	height     : 42.091px;
+	flex-shrink: 0;
+}
+
+.cosmetology {
+	width      : 149.553px;
+	height     : 27.667px;
+	flex-shrink: 0;
+}
+
+.inter-cosmetology {
+	width      : 164px;
+	height     : 39px;
+	flex-shrink: 0;
+}
+
+.Distributors {
+	display   : flex;
+	margin-top: 75px;
+}
+
+.Distributors__wrap {
+	display       : flex;
+	flex-direction: column;
+}
+
+.big-block {
+	display    : flex;
+	width      : 403.363px;
+	height     : 70.645px;
+	flex-shrink: 0;
+}
+
+.forma {
+	width      : 98.14px;
+	height     : 58.489px;
+	flex-shrink: 0;
+}
+
+.beautiful-jen {
+	width      : 129.817px;
+	height     : 36.228px;
+	flex-shrink: 0;
+}
+
+.astera {
+	width      : 94.54px;
+	height     : 55.327px;
+	flex-shrink: 0;
+}
+
+.top-med-group {
+	width      : 122.812px;
+	height     : 46.564px;
+	flex-shrink: 0;
+}
+
+.medline-volga {
+	width      : 112.517px;
+	height     : 43.331px;
+	flex-shrink: 0;
+}
+
+.aksel-farm {
+	width      : 154px;
+	height     : 28px;
+	flex-shrink: 0;
+}
+
+.freya-group {
+	width      : 76.128px;
+	height     : 56.59px;
+	flex-shrink: 0;
+}
+
+.clinics {
+	display   : flex;
+	margin-top: 73px;
+}
+
+.clinics__wrap {
+	display       : flex;
+	flex-direction: column;
+}
+
+.Logo_Dr {
+	width      : 138.511px;
+	height     : 69.256px;
+	flex-shrink: 0;
+}
+
+.Euro-sharm {
+	width      : 129.073px;
+	height     : 44.624px;
+	flex-shrink: 0;
+}
+
+.i-beautiful {
+	width      : 134.192px;
+	height     : 23.137px;
+	flex-shrink: 0;
+}
+
+.family-doctor {
+	width      : 139.585px;
+	height     : 30.825px;
+	flex-shrink: 0;
+}
+
+.age-clinic {
+	width      : 149.234px;
+	height     : 30.301px;
+	flex-shrink: 0;
+}
+
+.effi {
+	width      : 122.534px;
+	height     : 55.697px;
+	flex-shrink: 0;
+}
+
+.last-partner-block {
+	justify-content: flex-start;
+}
+
+.ml-block {
+	margin-left: 22px;
+}
+
+.mira {
+	width      : 112.912px;
+	height     : 47.006px;
+	flex-shrink: 0;
+}
+
+.new-medicine {
+	width      : 113.224px;
+	height     : 43.025px;
+	flex-shrink: 0;
+}
