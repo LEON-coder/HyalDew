@@ -1,17 +1,8 @@
 @font-face {
 	font-family: 'DIN Pro';
 	font-style : normal;
-	src        : url('../fonts/DIN-Pro/DINPro-Medium.woff');
+	src        : url('../fonts/DIN-Pro/DINPro.woff2');
 }
-
-@font-face {
-	font-family: 'DIN Pro';
-	font-style : normal;
-	src        : url('../fonts/DIN-Pro/DINPro.woff');
-}
-
-
-
 
 * {
 	margin    : 0;
@@ -32,10 +23,10 @@ body {
 	background     : #FFF;
 	justify-content: center;
 	flex-direction : column;
-	width          : 100%;
 	align-items    : center;
 	padding-left   : 177px;
 	padding-right  : 224px;
+	width          : 621.981px;
 }
 
 header {
@@ -316,9 +307,10 @@ header {
 }
 
 .how-become-client {
-	display   : flex;
-	margin-top: 54px;
-	width     : 100%;
+	display        : flex;
+	margin-top     : 54px;
+	width          : 100%;
+	justify-content: center;
 }
 
 .how-become-client__wrap {
@@ -348,6 +340,7 @@ header {
 .how-become-client__form {
 	display       : flex;
 	flex-direction: column;
+	width         : 325.473px;
 }
 
 .form__input {
@@ -420,15 +413,15 @@ input:focus-visible {
 .checkbox-agreement-label {
 	display    : flex;
 	margin-left: 10px;
-	width      : 133.076px;
-	height     : 35.643px;
-	flex-shrink: 0;
 	color      : #3A4152;
 	font-family: DIN Pro;
 	font-size  : 12px;
 	font-style : normal;
 	font-weight: 400;
 	line-height: normal;
+	width      : 106.076px;
+	height     : 35.643px;
+	flex-shrink: 0;
 }
 
 .form__checkbox-block {
