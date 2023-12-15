@@ -4,6 +4,12 @@
 	src        : url('../fonts/DIN-Pro/DINPro-Medium.woff');
 }
 
+@font-face {
+	font-family: 'DIN Pro';
+	font-style : normal;
+	src        : url('../fonts/DIN-Pro/DINPro.woff');
+}
+
 
 
 
@@ -26,8 +32,10 @@ body {
 	background     : #FFF;
 	justify-content: center;
 	flex-direction : column;
-	width          : 736.805px;
+	width          : 100%;
 	align-items    : center;
+	padding-left   : 177px;
+	padding-right  : 224px;
 }
 
 header {
@@ -84,6 +92,7 @@ header {
 	width          : 100%;
 	justify-content: space-between;
 	margin-top     : 25px;
+	flex-wrap      : wrap;
 }
 
 .info-partner {
@@ -96,7 +105,9 @@ header {
 	position       : relative;
 }
 
-.info-partner-img {}
+.info-partner:nth-child(3) {
+	margin-bottom: 16px;
+}
 
 .hepru {
 	width      : 108.482px;
@@ -126,11 +137,19 @@ header {
 	flex-direction: column;
 }
 
-.big-block {
-	display    : flex;
-	width      : 403.363px;
-	height     : 70.645px;
-	flex-shrink: 0;
+.info-partner-big-block {
+	display        : flex;
+	justify-content: center;
+	align-items    : center;
+	position       : relative;
+	width          : 403.363px;
+	height         : 70.645px;
+	flex-shrink    : 0;
+	margin-bottom  : 16px;
+}
+
+.estemarko--mobile {
+	display: none;
 }
 
 .forma {
@@ -149,6 +168,24 @@ header {
 	width      : 94.54px;
 	height     : 55.327px;
 	flex-shrink: 0;
+}
+
+.clinics-patner-block {
+	display        : flex;
+	justify-content: center;
+	align-items    : center;
+	width          : 192.57px;
+	height         : 70.645px;
+	flex-shrink    : 0;
+	position       : relative;
+}
+
+.clinics-patner-block:nth-child(2) {
+	margin-bottom: 16px;
+}
+
+.clinics-patner-block:nth-child(4) {
+	margin-bottom: 16px;
 }
 
 .top-med-group {
@@ -226,7 +263,8 @@ header {
 }
 
 .ml-block {
-	margin-left: 22px;
+	margin-left : 22px;
+	margin-right: auto;
 }
 
 .mira {
@@ -244,6 +282,7 @@ header {
 .how-become-client {
 	display   : flex;
 	margin-top: 54px;
+	width     : 100%;
 }
 
 .how-become-client__wrap {
@@ -288,6 +327,11 @@ header {
 	border-bottom : 1px solid #B2B2B2;
 	padding-bottom: 10px;
 	margin-top    : 20px;
+}
+
+input:focus-visible {
+	border        : none;
+	outline-offset: 0px;
 }
 
 .form__input:first-child {
@@ -340,7 +384,7 @@ header {
 .checkbox-agreement-label {
 	display    : flex;
 	margin-left: 10px;
-	width      : 106.076px;
+	width      : 133.076px;
 	height     : 35.643px;
 	flex-shrink: 0;
 	color      : #3A4152;
@@ -356,11 +400,8 @@ header {
 }
 
 #button-pay {
-	width      : 62.564px;
-	height     : 18.894px;
-	flex-shrink: 0;
 	color      : #FFF;
-	font-family: DIN Pro;
+	font-family: 'DIN Pro';
 	font-size  : 16px;
 	font-style : normal;
 	font-weight: 500;
@@ -369,6 +410,7 @@ header {
 	height     : 42.591px;
 	flex-shrink: 0;
 	background : #3A4152;
+	margin-left: 7px;
 }
 
 footer {

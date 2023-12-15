@@ -1,0 +1,244 @@
+@media screen and (max-width: 576px) {
+
+	header {
+		display    : flex;
+		width      : 100%;
+		height     : auto;
+		flex-shrink: 0;
+		margin-top : 40px;
+	}
+
+	.content {
+		display        : flex;
+		background     : #FFF;
+		justify-content: center;
+		flex-direction : column;
+		align-items    : center;
+		width          : 100%;
+		padding-left   : 17px;
+		padding-right  : 16px;
+		box-sizing     : border-box;
+	}
+
+	.info-partners {
+		display: flex;
+		width  : 100%;
+	}
+
+	.info-partners__headline_line {
+		width     : 100%;
+		background: #D0BE96;
+		margin-top: 6px;
+		height    : 3.645px;
+	}
+
+	.info-partner,
+	.clinics-patner-block {
+		display        : flex;
+		justify-content: center;
+		align-items    : center;
+		position       : relative;
+		width          : 262.883px;
+		height         : 96.44px;
+		flex-shrink    : 0;
+	}
+
+	.info-frame {
+		position       : absolute;
+		display        : flex;
+		justify-content: center;
+		align-items    : center;
+		width          : auto;
+		height         : 96.44px;
+		flex-shrink    : 0;
+	}
+
+	.hepru-mobile {
+		margin-right: 17px;
+	}
+
+	.mr-modify {
+		margin-top: 19px;
+	}
+
+
+	.info-partner:nth-child(2) {
+		margin-top   : 0;
+		margin-bottom: 19px;
+	}
+
+	.info-partner:nth-child(3) {
+		margin-top   : 0;
+		margin-bottom: 19px;
+	}
+
+	.info-partner:nth-child(4) {
+		margin-bottom: 19px;
+	}
+
+	.info-partner:nth-child(5) {
+		margin-bottom: 19px;
+	}
+
+	.info-partner:nth-child(6) {
+		margin-bottom: 19px;
+	}
+
+	.info-partner:nth-child(7) {
+		margin-bottom: 19px;
+	}
+
+	.forma {
+		margin-top: 19px;
+	}
+
+	.clinics-patner-block {
+		margin-top   : 0;
+		margin-bottom: 20px;
+	}
+
+	.info-partners__wrap {
+		display       : flex;
+		flex-direction: column;
+		width         : 100%;
+	}
+
+	.info-partners__blocks {
+		display   : flex;
+		margin-top: 25px;
+		flex-wrap : wrap;
+		width     : 542.806px;
+	}
+
+	.big-block {
+		display     : flex;
+		width       : 542.806px;
+		height      : 96.44px;
+		flex-shrink : 0;
+		margin-right: 0;
+	}
+
+	.Distributors {
+		display   : flex;
+		margin-top: 75px px;
+		width     : 100%;
+	}
+
+
+
+	.info-partner-big-block {
+		display        : flex;
+		justify-content: center;
+		align-items    : center;
+		position       : relative;
+		width          : 542.806px;
+		height         : 96.44px;
+		flex-shrink    : 0;
+		margin-bottom  : 20px;
+	}
+
+	.footer__wrap {
+		width : 100%;
+		height: auto;
+	}
+
+	.estemarko {
+		display: none;
+	}
+
+	.estemarko--mobile {
+		width  : 149.011px;
+		height : 76.989px;
+		display: flex;
+	}
+
+	.ml-block {
+		margin-left: 0;
+	}
+
+	.info-partners__headline {
+		font-size: 28px;
+	}
+
+	.how-become-client__form-blocks {
+		display        : flex;
+		margin-top     : 26px;
+		width          : 100%;
+		justify-content: space-between;
+		flex-direction : column;
+	}
+
+	.how-become-client__form-blocks_offer-text {
+		width      : 538.987px;
+		height     : auto;
+		flex-shrink: 0;
+		color      : #000;
+		font-family: DIN Pro;
+		font-size  : 17px;
+		font-style : normal;
+		font-weight: 400;
+		line-height: normal;
+	}
+
+	.how-become-client__form {
+		display       : flex;
+		flex-direction: column;
+		margin-top    : 52px;
+		width         : 100%;
+	}
+
+	.form__input {
+		flex-shrink   : 0;
+		color         : #D5C6A3;
+		font-family   : 'DIN Pro';
+		font-size     : 12px;
+		font-style    : normal;
+		font-weight   : 500;
+		line-height   : normal;
+		width         : 100%;
+		border        : transparent;
+		border-bottom : 1px solid #B2B2B2;
+		padding-bottom: 10px;
+		margin-top    : 20px;
+	}
+
+	.form__input-text {
+		width         : 100%;
+		border-radius : 10px;
+		border        : 0.5px solid #D0BE96;
+		margin-top    : 23px;
+		padding-top   : 19px;
+		display       : flex;
+		padding-left  : 25px;
+		padding-bottom: 75px;
+	}
+
+	.form__checkbox-block {
+		display   : flex;
+		align-self: baseline;
+		height    : auto;
+	}
+
+	.form__checkbox-block-pay {
+		display       : flex;
+		margin-top    : 23px;
+		flex-direction: column;
+		width         : 100%;
+		align-items   : center;
+	}
+
+	#button-pay {
+		width      : 515.759px;
+		height     : 83.334px;
+		flex-shrink: 0;
+		margin-top : 34px;
+	}
+
+	#agreement {
+		display    : flex;
+		width      : 40.978px;
+		height     : 39.496px;
+		flex-shrink: 0;
+		border     : 1.444px solid #3A4152;
+	}
+}
