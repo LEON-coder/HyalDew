@@ -54,7 +54,32 @@
 	}
 
 	.hepru-mobile {
-		margin-right: 17px;
+		display: flex;
+	}
+
+	.hepru {
+		display: none;
+	}
+
+	.cosmetology-mobile {
+		display: flex;
+	}
+
+	.cosmetology {
+		display: none;
+	}
+
+	.inter-cosmetology-mobile {
+		display: flex;
+	}
+
+	.inter-cosmetology {
+		display: none;
+	}
+
+	.hepru-mobile {
+		margin-right : 17px;
+		margin-bottom: 19px;
 	}
 
 	.mr-modify {
@@ -89,7 +114,52 @@
 	}
 
 	.forma {
-		margin-top: 19px;
+		display   : none;
+		margin-top: 0;
+	}
+
+	.forma-mobile {
+		display: flex;
+	}
+
+	.beautiful-jen {
+		display: none;
+	}
+
+	.beautiful-jen-mobile {
+		display: flex;
+	}
+
+	.astera-mobile {
+		display: flex;
+	}
+
+	.astera {
+		display: none;
+	}
+
+	.medline-volga-mobile {
+		display: flex;
+	}
+
+	.medline-volga {
+		display: none;
+	}
+
+	.aksel-farm-mobile {
+		display: flex;
+	}
+
+	.aksel-farm {
+		display: none;
+	}
+
+	.freya-group-mobile {
+		display: flex;
+	}
+
+	.freya-group {
+		display: none;
 	}
 
 	.clinics-patner-block {
@@ -107,7 +177,7 @@
 		display   : flex;
 		margin-top: 25px;
 		flex-wrap : wrap;
-		width     : 542.806px;
+		width     : 100%;
 	}
 
 	.big-block {
@@ -123,8 +193,6 @@
 		margin-top: 75px px;
 		width     : 100%;
 	}
-
-
 
 	.info-partner-big-block {
 		display        : flex;
@@ -158,6 +226,8 @@
 
 	.info-partners__headline {
 		font-size: 28px;
+		width    : 72vw;
+		height   : auto;
 	}
 
 	.how-become-client__form-blocks {

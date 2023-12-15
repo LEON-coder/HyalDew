@@ -109,12 +109,6 @@ header {
 	margin-bottom: 16px;
 }
 
-.hepru {
-	width      : 108.482px;
-	height     : 42.091px;
-	flex-shrink: 0;
-}
-
 .cosmetology {
 	width      : 149.553px;
 	height     : 27.667px;
@@ -158,16 +152,58 @@ header {
 	flex-shrink: 0;
 }
 
+.hepru {
+	width  : 108.482px;
+	height : 42.091px;
+	display: flex;
+}
+
+.cosmetology-mobile {
+	display: none;
+}
+
+.inter-cosmetology-mobile {
+	display: none;
+}
+
+.forma-mobile {
+	display: none;
+}
+
 .beautiful-jen {
 	width      : 129.817px;
 	height     : 36.228px;
 	flex-shrink: 0;
 }
 
+.beautiful-jen-mobile {
+	display: none;
+}
+
 .astera {
 	width      : 94.54px;
 	height     : 55.327px;
 	flex-shrink: 0;
+}
+
+.astera-mobile {
+	display: none;
+}
+
+.medline-volga-mobile {
+	display: none;
+}
+
+.aksel-farm-mobile {
+	display: none;
+}
+
+.freya-group-mobile {
+	display: none;
+}
+
+.hepru-mobile {
+	display: none;
 }
 
 .clinics-patner-block {
