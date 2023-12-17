@@ -95,7 +95,12 @@ header {
 	height         : 70.645px;
 	flex-shrink    : 0;
 	position       : relative;
-	margin-left    : 4px;
+	margin-left    : 0;
+}
+
+.info-partner:nth-child(4),
+.info-partner:nth-child(7) {
+	margin-right: 10px;
 }
 
 .info-partner:nth-child(3) {
@@ -152,9 +157,19 @@ header {
 	margin-left: 13px;
 }
 
+.info-frame-mobile-big {
+	display: none;
+}
+
+.info-frame-big {
+	position       : absolute;
+	display        : flex;
+	justify-content: center;
+	align-items    : center;
+}
+
 .mr-modify {
 	margin-right: 0;
-	;
 }
 
 .cosmetology-mobile {
@@ -221,6 +236,16 @@ header {
 
 .clinics-patner-block:nth-child(4) {
 	margin-bottom: 16px;
+}
+
+.clinics-patner-block:nth-child(2),
+.clinics-patner-block:nth-child(5) {
+	margin-right: 10px;
+}
+
+.clinics-patner-block:nth-child(8) {
+	margin-right: auto;
+	margin-left : 16px;
 }
 
 .top-med-group {
