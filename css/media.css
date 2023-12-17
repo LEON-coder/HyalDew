@@ -1,11 +1,9 @@
-@media screen and (max-width: 576px) {
+@media screen and (min-width:426px) and (max-width:576px) {
 
 	header {
-		display    : flex;
-		width      : 100%;
-		height     : auto;
-		flex-shrink: 0;
-		margin-top : 40px;
+		margin-top: 40px;
+		width     : 576px;
+		height    : 307.916px;
 	}
 
 	.content {
@@ -50,6 +48,26 @@
 		align-items    : center;
 		width          : auto;
 		height         : 96.44px;
+		flex-shrink    : 0;
+	}
+
+	.info-frame-big {
+		position       : absolute;
+		display        : flex;
+		justify-content: center;
+		align-items    : center;
+		width          : auto;
+		height         : 96.44px;
+		flex-shrink    : 0;
+	}
+
+	.info-frame-mobile-big {
+		position       : absolute;
+		display        : none;
+		justify-content: center;
+		align-items    : center;
+		width          : 100%;
+		height         : 100%;
 		flex-shrink    : 0;
 	}
 
@@ -189,9 +207,8 @@
 	}
 
 	.Distributors {
-		display   : flex;
-		margin-top: 75px px;
-		width     : 100%;
+		display: flex;
+		width  : 100%;
 	}
 
 	.info-partner-big-block {
@@ -221,7 +238,8 @@
 	}
 
 	.ml-block {
-		margin-left: 0;
+		margin-left : 0;
+		margin-right: 0;
 	}
 
 	.info-partners__headline {
@@ -258,6 +276,202 @@
 	}
 
 	.form__input {
+		width     : 100%;
+		font-size : 24px;
+		margin-top: 40px;
+	}
+
+	.form__input-text {
+		width         : 100%;
+		border-radius : 10px;
+		border        : 0.5px solid #D0BE96;
+		padding-top   : 19px;
+		display       : flex;
+		padding-left  : 25px;
+		padding-bottom: 75px;
+		margin-top    : 49px;
+		color         : #D5C6A3;
+		font-family   : DIN Pro;
+		font-size     : 24px;
+		font-style    : normal;
+		font-weight   : 500;
+		line-height   : normal;
+	}
+
+	.form__checkbox-block {
+		display   : flex;
+		align-self: baseline;
+		height    : auto;
+	}
+
+	.form__checkbox-block-pay {
+		display       : flex;
+		margin-top    : 23px;
+		flex-direction: column;
+		width         : 100%;
+		align-items   : center;
+	}
+
+	#button-pay {
+		width      : 100%;
+		height     : 83.334px;
+		margin-top : 34px;
+		margin-left: 0;
+		font-size  : 30px;
+	}
+
+	#agreement {
+		display    : flex;
+		width      : 40.978px;
+		height     : 39.496px;
+		flex-shrink: 0;
+		border     : 1.444px solid #3A4152;
+	}
+
+	.checkbox-agreement-label {
+		display    : flex;
+		margin-left: 10px;
+		width      : 270.619px;
+		height     : 56.517px;
+		flex-shrink: 0;
+		color      : #3A4152;
+		font-family: DIN Pro;
+		font-size  : 26px;
+		font-style : normal;
+		font-weight: 400;
+		line-height: normal;
+	}
+}
+
+@media screen and (max-width: 425px) {
+
+	.content {
+		display        : flex;
+		background     : #FFF;
+		justify-content: center;
+		flex-direction : column;
+		align-items    : center;
+		width          : 100%;
+	}
+
+	header {
+		margin-top: 40px;
+		width     : 100%;
+		height    : 307.916px;
+	}
+
+	.Distributors__wrap {
+		display        : flex;
+		flex-direction : column;
+		justify-content: center;
+		align-items    : center;
+		width          : 100%;
+	}
+
+	.info-partners__wrap {
+		display       : flex;
+		flex-direction: column;
+		align-items   : center;
+	}
+
+	.info-partners__headline_line {
+		width      : 90%;
+		height     : 2.501px;
+		flex-shrink: 0;
+		background : #D0BE96;
+		margin-top : 6px;
+	}
+
+	.info-partner:nth-child(2) {
+		margin-top   : 2px;
+		margin-bottom: 19px;
+	}
+
+	.info-partner,
+	.clinics-patner-block {
+		width        : 100%;
+		height       : 96.44px;
+		flex-shrink  : 0;
+		margin-bottom: 16px;
+		margin-left  : 0;
+	}
+
+	.info-partner-big-block {
+		width        : 100%;
+		height       : 96.44px;
+		margin-bottom: 16px;
+	}
+
+	.info-frame {
+		position       : absolute;
+		display        : flex;
+		justify-content: center;
+		align-items    : center;
+		width          : 100%;
+		height         : 100%;
+		flex-shrink    : 0;
+	}
+
+	.info-frame-big {
+		display: none;
+	}
+
+	.info-frame-mobile-big {
+		position       : absolute;
+		display        : flex;
+		justify-content: center;
+		align-items    : center;
+		width          : 100%;
+		height         : 100%;
+		flex-shrink    : 0;
+	}
+
+	.ml-block {
+		margin-left : 0;
+		margin-right: auto;
+	}
+
+	.how-become-client__wrap {
+		display       : flex;
+		flex-direction: column;
+		width         : 100%;
+	}
+
+	.info-partners__headline {
+		font-size   : 28px;
+		width       : 85vw;
+		height      : auto;
+		padding-left: 15px;
+	}
+
+	.how-become-client__form-blocks_offer-text {
+		width    : 90%;
+		height   : auto;
+		font-size: 17px;
+	}
+
+	.how-become-client__form-blocks {
+		display        : flex;
+		margin-top     : 26px;
+		width          : 100%;
+		justify-content: space-between;
+		flex-direction : column;
+		align-items    : center;
+	}
+
+	.how-become-client__form {
+		width     : 90%;
+		margin-top: 52px;
+	}
+
+	.form__checkbox-block-pay {
+		display       : flex;
+		margin-top    : 23px;
+		flex-direction: column;
+		width         : 100%;
+	}
+
+	.form__input {
 		flex-shrink   : 0;
 		color         : #D5C6A3;
 		font-family   : 'DIN Pro';
@@ -283,32 +497,20 @@
 		padding-bottom: 75px;
 	}
 
-	.form__checkbox-block {
-		display   : flex;
-		align-self: baseline;
-		height    : auto;
-	}
-
-	.form__checkbox-block-pay {
-		display       : flex;
-		margin-top    : 23px;
-		flex-direction: column;
-		width         : 100%;
-		align-items   : center;
-	}
-
 	#button-pay {
-		width      : 515.759px;
-		height     : 83.334px;
 		flex-shrink: 0;
 		margin-top : 34px;
 	}
 
-	#agreement {
-		display    : flex;
-		width      : 40.978px;
-		height     : 39.496px;
+	.checkbox-agreement-label {
+		width      : 200.619px;
 		flex-shrink: 0;
-		border     : 1.444px solid #3A4152;
+	}
+
+	.footer__wrap {
+		width    : 100%;
+		height   : auto;
+		display  : flex;
+		flex-wrap: wrap;
 	}
 }

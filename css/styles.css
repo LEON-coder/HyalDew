@@ -24,8 +24,6 @@ body {
 	justify-content: center;
 	flex-direction : column;
 	align-items    : center;
-	padding-left   : 177px;
-	padding-right  : 224px;
 	width          : 621.981px;
 }
 
@@ -52,15 +50,17 @@ header {
 }
 
 .info-partners__headline {
-	width      : 424.715px;
-	height     : 39.508px;
-	flex-shrink: 0;
-	color      : #3A4152;
-	font-family: 'DIN Pro';
-	font-size  : 27px;
-	font-style : normal;
-	font-weight: 500;
-	line-height: normal;
+	width       : 424.715px;
+	height      : 39.508px;
+	flex-shrink : 0;
+	color       : #3A4152;
+	font-family : 'DIN Pro';
+	font-size   : 27px;
+	font-style  : normal;
+	font-weight : 500;
+	line-height : normal;
+	margin-top  : 18px;
+	padding-left: 0px;
 }
 
 .info-frame {
@@ -82,8 +82,9 @@ header {
 	display        : flex;
 	width          : 100%;
 	justify-content: space-between;
-	margin-top     : 25px;
+	margin-top     : 27px;
 	flex-wrap      : wrap;
+	margin-left    : 0px;
 }
 
 .info-partner {
@@ -94,6 +95,7 @@ header {
 	height         : 70.645px;
 	flex-shrink    : 0;
 	position       : relative;
+	margin-left    : 4px;
 }
 
 .info-partner:nth-child(3) {
@@ -144,9 +146,15 @@ header {
 }
 
 .hepru {
-	width  : 108.482px;
-	height : 42.091px;
-	display: flex;
+	width      : 108.482px;
+	height     : 42.091px;
+	display    : flex;
+	margin-left: 13px;
+}
+
+.mr-modify {
+	margin-right: 0;
+	;
 }
 
 .cosmetology-mobile {
@@ -408,6 +416,7 @@ input:focus-visible {
 	height : 13.673px;
 	display: flex;
 	border : 0.5px solid #3A4152;
+	cursor : pointer;
 }
 
 .checkbox-agreement-label {
@@ -440,6 +449,7 @@ input:focus-visible {
 	flex-shrink: 0;
 	background : #3A4152;
 	margin-left: 7px;
+	cursor     : pointer;
 }
 
 footer {
