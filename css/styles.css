@@ -139,6 +139,10 @@ header {
 	flex-direction: column;
 }
 
+.logo-mobile {
+	display: none;
+}
+
 .info-partners {
 	display: flex;
 }
@@ -577,11 +581,13 @@ input:focus-visible {
 }
 
 footer {
-	width      : 100%;
-	background : #3A4152;
-	height     : 269.065px;
-	flex-shrink: 0;
-	margin-top : 69px;
+	width          : 100%;
+	background     : #3A4152;
+	height         : 269.065px;
+	flex-shrink    : 0;
+	margin-top     : 69px;
+	justify-content: center;
+	display        : flex;
 }
 
 .footer__wrap {
@@ -607,7 +613,8 @@ footer {
 	flex-direction: column;
 }
 
-.policy-block__item {
+.policy-block__item,
+.collection-block__item {
 	color          : #FFF;
 	font-family    : 'DIN Pro';
 	font-size      : 14px;
