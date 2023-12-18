@@ -1,9 +1,8 @@
 @media screen and (min-width:426px) and (max-width:576px) {
 
 	header {
-		margin-top: 40px;
-		width     : 576px;
-		height    : 307.916px;
+		width : 576px;
+		height: 307.916px;
 	}
 
 	.header__button-block {
@@ -79,7 +78,7 @@
 		flex-shrink  : 0;
 		border-radius: 26px;
 		background   : #3E4253;
-		top          : 0px;
+		top          : -5px;
 	}
 
 	.burder-stripe:nth-child(2) {
@@ -89,7 +88,7 @@
 		border-radius: 26px;
 		background   : #3E4253;
 		position     : absolute;
-		top          : -5px;
+		top          : -15px;
 	}
 
 	.burder-stripe:nth-child(3) {

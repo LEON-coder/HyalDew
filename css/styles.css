@@ -27,6 +27,10 @@ body {
 	width          : 621.981px;
 }
 
+.header__burger-icon {
+	display: none;
+}
+
 header {
 	display    : flex;
 	width      : 736.805px;
