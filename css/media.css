@@ -1,4 +1,4 @@
-@media screen and (min-width:426px) and (max-width:576px) {
+@media screen and (min-width:450px) and (max-width:576px) {
 
 	header {
 		width : 576px;
@@ -642,7 +642,7 @@
 	}
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 450px) {
 
 	.content {
 		display        : flex;
