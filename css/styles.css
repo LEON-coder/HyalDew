@@ -43,6 +43,7 @@ header {
 	width      : 224.847px;
 	height     : 94.054px;
 	flex-shrink: 0;
+	cursor     : pointer;
 }
 
 .header__wrap {
@@ -200,12 +201,11 @@ header {
 }
 
 .info-partners__blocks {
-	display        : flex;
-	width          : 100%;
-	justify-content: space-between;
-	margin-top     : 27px;
-	flex-wrap      : wrap;
-	margin-left    : 0px;
+	display    : flex;
+	width      : 100%;
+	margin-top : 27px;
+	flex-wrap  : wrap;
+	margin-left: 0px;
 }
 
 .info-partner {
@@ -219,13 +219,23 @@ header {
 	margin-left    : 0;
 }
 
-.info-partner:nth-child(4),
-.info-partner:nth-child(7) {
-	margin-right: 0px;
-}
-
 .info-partner:nth-child(3) {
 	margin-bottom: 16px;
+	margin-right : 0;
+}
+
+.info-partner:nth-child(2),
+.info-partner:nth-child(5),
+.info-partner:nth-child(8) {
+	margin-left: 18px;
+}
+
+.info-partner:nth-child(6) {
+	margin-right: 18px;
+}
+
+.inter-cosmetology-block {
+	margin-left: 18px;
 }
 
 .cosmetology {
@@ -352,6 +362,7 @@ header {
 }
 
 .clinics-patner-block:nth-child(2) {
+	margin-left  : 22px;
 	margin-bottom: 16px;
 }
 
@@ -361,12 +372,17 @@ header {
 
 .clinics-patner-block:nth-child(2),
 .clinics-patner-block:nth-child(5) {
-	margin-right: 0;
+	margin-right: 21px;
+	margin-left : 22px;
 }
 
 .clinics-patner-block:nth-child(8) {
 	margin-right: auto;
 	margin-left : 23px;
+}
+
+.astera-block {
+	margin-left: 18px;
 }
 
 .top-med-group {
@@ -606,6 +622,10 @@ footer {
 	margin-top     : 69px;
 	justify-content: center;
 	display        : flex;
+}
+
+.footer-logo-mobile {
+	display: none;
 }
 
 .footer__wrap {
