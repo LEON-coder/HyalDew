@@ -55,12 +55,15 @@ header {
 }
 
 .header__button-block {
-	display     : flex;
-	position    : relative;
-	width       : 64.161px;
-	height      : 23.945px;
-	flex-shrink : 0;
-	margin-right: 20px;
+	display                  : flex;
+	position                 : relative;
+	flex-shrink              : 0;
+	margin-right             : 20px;
+	background               : #D0BE96;
+	border-bottom-left-radius: 10px;
+	border-top-right-radius  : 10px;
+	padding-right            : 4px;
+	padding-left             : 0px;
 }
 
 .header__contacts {
@@ -76,18 +79,14 @@ header {
 	font-style     : normal;
 	font-weight    : 500;
 	line-height    : normal;
-	background     : #D0BE96;
 	border         : none;
 	z-index        : 5;
 	text-decoration: none;
-	width          : 54.639px;
-	height         : 16.505px;
 	flex-shrink    : 0;
 	padding        : 2px 2.6px 5px 7px;
 }
 
 .collections-back {
-	display : flex;
 	position: absolute;
 }
 
@@ -141,6 +140,9 @@ header {
 .logo_block {
 	display       : flex;
 	flex-direction: column;
+	width         : 161.714px;
+	height        : 48.976px;
+	flex-shrink   : 0;
 }
 
 .logo-mobile {
@@ -595,10 +597,10 @@ footer {
 }
 
 .footer__wrap {
-	width         : 764.653px;
+	width         : 730.653px;
 	display       : flex;
 	margin-top    : 41px;
-	margin-left   : 177px;
+	margin-left   : 120px;
 	flex-direction: column;
 }
 
@@ -633,14 +635,14 @@ footer {
 }
 
 .footer__section-2 {
-	margin-left: 67px;
+	margin-left: 30px;
 	display    : flex;
 }
 
 .footer__section-phones {
 	display       : flex;
 	flex-direction: column;
-	margin-left   : 77px;
+	margin-left   : 57px;
 }
 
 .footer__phone {
