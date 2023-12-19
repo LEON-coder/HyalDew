@@ -39,9 +39,15 @@ header {
 	margin-top : 0;
 }
 
+.logo {
+	width      : 224.847px;
+	height     : 94.054px;
+	flex-shrink: 0;
+}
+
 .header__wrap {
 	display       : flex;
-	align-items   : center;
+	align-items   : baseline;
 	width         : 100%;
 	flex-direction: column;
 }
@@ -129,19 +135,20 @@ header {
 }
 
 .pagination {
-	color      : #A3A5AA;
-	font-family: 'DIN Pro';
-	font-size  : 14px;
-	font-style : normal;
-	font-weight: 500;
-	line-height: normal;
+	color          : #A3A5AA;
+	font-family    : 'DIN Pro';
+	font-size      : 14px;
+	font-style     : normal;
+	font-weight    : 500;
+	line-height    : normal;
+	text-decoration: none;
+	cursor         : pointer;
 }
 
 .logo_block {
 	display       : flex;
 	flex-direction: column;
 	width         : 161.714px;
-	height        : 48.976px;
 	flex-shrink   : 0;
 }
 
@@ -179,6 +186,11 @@ header {
 	align-items    : center;
 }
 
+.header__pagination {
+	display     : flex;
+	padding-left: 57px;
+}
+
 .info-partners__headline_line {
 	width      : 621.981px;
 	height     : 2.501px;
@@ -209,7 +221,7 @@ header {
 
 .info-partner:nth-child(4),
 .info-partner:nth-child(7) {
-	margin-right: 10px;
+	margin-right: 0px;
 }
 
 .info-partner:nth-child(3) {
@@ -349,12 +361,12 @@ header {
 
 .clinics-patner-block:nth-child(2),
 .clinics-patner-block:nth-child(5) {
-	margin-right: 10px;
+	margin-right: 0;
 }
 
 .clinics-patner-block:nth-child(8) {
 	margin-right: auto;
-	margin-left : 16px;
+	margin-left : 23px;
 }
 
 .top-med-group {
