@@ -1,8 +1,9 @@
 @media screen and (max-width:576px) {
 
 	header {
-		width : 100%;
-		height: 307.916px;
+		width     : 100%;
+		height    : 307.916px;
+		box-sizing: border-box;
 	}
 
 	.header__button-block {
@@ -29,6 +30,7 @@
 		align-items    : flex-start;
 		margin-left    : 17px;
 		margin-top     : 82px;
+		padding-left   : 0;
 	}
 
 	.header__wrap {
@@ -44,8 +46,9 @@
 		justify-content: space-between;
 		width          : 100%;
 		padding-left   : 0px;
-		padding-right  : 55px;
+		padding-right  : 0;
 		align-items    : center;
+		box-sizing     : border-box;
 	}
 
 	.pagination {
@@ -113,14 +116,11 @@
 		box-sizing     : border-box;
 	}
 
-	.info-partner .cosmetology-block {
-		margin-right: 0;
-	}
-
 	.info-partners {
 		display: flex;
 		width  : 100%;
 	}
+
 
 	.info-partners__headline_line {
 		width     : 100%;
@@ -138,6 +138,17 @@
 		height         : 96.44px;
 		flex-shrink    : 0;
 		width          : 100%;
+	}
+
+	.info-partner:nth-child(2),
+	.info-partner:nth-child(5),
+	.info-partner:nth-child(8) {
+		margin-left: 0;
+	}
+
+	.info-partner {
+		margin-bottom: 19px;
+		margin-left  : 0;
 	}
 
 	.info-partner .forma-block {
@@ -223,18 +234,18 @@
 		width         : 100%;
 	}
 
-	.info-partner:nth-child(2) {
-		margin-top   : 0;
-		margin-bottom: 19px;
-		margin-left  : 0;
-	}
 
-	.info-partner:nth-child(2),
-	.info-partner:nth-child(5),
-	.info-partner:nth-child(8) {
-		margin-left: 0;
+	.Distributor-partner {
+		margin-bottom  : 17px;
+		display        : flex;
+		justify-content: center;
+		align-items    : center;
+		position       : relative;
+		max-width      : 262.883px;
+		height         : 96.44px;
+		flex-shrink    : 0;
+		width          : 100%;
 	}
-
 
 	.info-partner:nth-child(3) {
 		margin-top   : 0;
@@ -329,11 +340,6 @@
 	.clinics-patner-block:nth-child(2) {
 		margin-right: 0;
 		margin-left : 0;
-		margin-top  : 17px;
-	}
-
-	.clinics-patner-block:nth-child(3) {
-		margin-bottom: 17px;
 	}
 
 	.clinics-patner-block:nth-child(4) {
@@ -354,10 +360,11 @@
 	}
 
 	.info-partners__blocks {
-		display   : flex;
-		margin-top: 25px;
-		flex-wrap : wrap;
-		width     : 100%;
+		display        : flex;
+		margin-top     : 25px;
+		flex-wrap      : wrap;
+		width          : 100%;
+		justify-content: space-between;
 	}
 
 	.big-block {
@@ -371,6 +378,14 @@
 	.Distributors {
 		display: flex;
 		width  : 100%;
+	}
+
+	.Distributors__blocks {
+		display        : flex;
+		margin-top     : 25px;
+		flex-wrap      : wrap;
+		width          : 100%;
+		justify-content: space-between;
 	}
 
 	.info-partner-big-block {
