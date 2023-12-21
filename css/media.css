@@ -1,7 +1,7 @@
-@media screen and (min-width:450px) and (max-width:576px) {
+@media screen and (max-width:576px) {
 
 	header {
-		width : 576px;
+		width : 100%;
 		height: 307.916px;
 	}
 
@@ -50,7 +50,7 @@
 
 	.pagination {
 		color      : #A3A5AA;
-		font-family: DIN Pro;
+		font-family: 'DIN Pro Condensed';
 		font-size  : 26px;
 		font-style : normal;
 		font-weight: 500;
@@ -134,9 +134,10 @@
 		justify-content: center;
 		align-items    : center;
 		position       : relative;
-		width          : 262.883px;
+		max-width      : 262.883px;
 		height         : 96.44px;
 		flex-shrink    : 0;
+		width          : 100%;
 	}
 
 	.info-partner .forma-block {
@@ -149,9 +150,10 @@
 		justify-content: center;
 		align-items    : center;
 		position       : relative;
-		width          : 262.883px;
+		width          : 100%;
 		height         : 96.44px;
 		flex-shrink    : 0;
+		margin-bottom  : 16px;
 	}
 
 	.info-frame {
@@ -169,7 +171,7 @@
 		display        : flex;
 		justify-content: center;
 		align-items    : center;
-		width          : auto;
+		width          : 100%;
 		height         : 96.44px;
 		flex-shrink    : 0;
 	}
@@ -184,10 +186,6 @@
 		flex-shrink    : 0;
 	}
 
-	.mr-modify {
-		margin-top  : 19px;
-		margin-right: 17px;
-	}
 
 	.hepru-mobile {
 		display: flex;
@@ -218,16 +216,23 @@
 		margin-bottom: 19px;
 	}
 
-	#forma-block {
-		margin-right: 17px;
+	.Distributors__wrap {
+		display       : flex;
+		flex-direction: column;
+		flex-wrap     : wrap;
+		width         : 100%;
 	}
-
 
 	.info-partner:nth-child(2) {
 		margin-top   : 0;
 		margin-bottom: 19px;
 		margin-left  : 0;
-		margin-right : 0;
+	}
+
+	.info-partner:nth-child(2),
+	.info-partner:nth-child(5),
+	.info-partner:nth-child(8) {
+		margin-left: 0;
 	}
 
 
@@ -320,32 +325,32 @@
 		display: none;
 	}
 
+
 	.clinics-patner-block:nth-child(2) {
 		margin-right: 0;
-		margin-left : 17px;
-		margin-top  : 0;
+		margin-left : 0;
+		margin-top  : 17px;
+	}
+
+	.clinics-patner-block:nth-child(3) {
+		margin-bottom: 17px;
 	}
 
 	.clinics-patner-block:nth-child(4) {
 		margin-bottom: 16px;
-		margin-left  : 17px;
+		margin-left  : 0;
 	}
 
 	.clinics-patner-block:nth-child(5) {
-		margin-right : 17px;
+		margin-right : 0;
 		margin-left  : 0;
 		margin-bottom: 16px;
 	}
 
-	.clinics-patner-block:nth-child(8) {
-		margin-right: 0;
-		margin-left : 17px;
-	}
-
 	.info-partners__wrap {
-		display       : flex;
-		flex-direction: column;
-		width         : 100%;
+		display  : flex;
+		width    : 100%;
+		flex-wrap: wrap;
 	}
 
 	.info-partners__blocks {
@@ -373,10 +378,11 @@
 		justify-content: center;
 		align-items    : center;
 		position       : relative;
-		width          : 542.806px;
+		max-width      : 542.806px;
 		height         : 96.44px;
 		flex-shrink    : 0;
 		margin-bottom  : 20px;
+		width          : 100%;
 	}
 
 	footer {
@@ -482,6 +488,11 @@
 		height   : auto;
 	}
 
+	.how-become-client__wrap {
+		display       : flex;
+		flex-direction: column;
+		width         : 100%;
+	}
 
 	.how-become-client__form-blocks {
 		display        : flex;
@@ -492,11 +503,8 @@
 	}
 
 	.how-become-client__form-blocks_offer-text {
-		width      : 538.987px;
-		height     : auto;
-		flex-shrink: 0;
-		color      : #000;
-		font-family: DIN Pro;
+		width      : 95%;
+		font-family: 'DIN Pro Condensed';
 		font-size  : 17px;
 		font-style : normal;
 		font-weight: 400;
@@ -526,7 +534,7 @@
 		padding-bottom: 75px;
 		margin-top    : 49px;
 		color         : #D5C6A3;
-		font-family   : DIN Pro;
+		font-family   : 'DIN Pro Condensed';
 		font-size     : 24px;
 		font-style    : normal;
 		font-weight   : 500;
@@ -570,7 +578,7 @@
 		height     : 56.517px;
 		flex-shrink: 0;
 		color      : #3A4152;
-		font-family: DIN Pro;
+		font-family: 'DIN Pro Condensed';
 		font-size  : 26px;
 		font-style : normal;
 		font-weight: 400;
@@ -642,7 +650,7 @@
 	}
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 425px) {
 
 	.content {
 		display        : flex;
@@ -730,6 +738,7 @@
 		display     : flex;
 		padding-left: 0;
 		margin-top  : 82px;
+		margin-left : 0;
 	}
 
 	.header__sale {
@@ -787,29 +796,43 @@
 	}
 
 	.info-partners__headline_line {
-		width      : 90%;
-		height     : 2.501px;
-		flex-shrink: 0;
-		background : #D0BE96;
-		margin-top : 6px;
+		height: 2.501px;
 	}
 
-	.info-partner:nth-child(2),
-	.info-partner:nth-child(5),
 	.info-partner:nth-child(8) {
-		margin-left: 0;
+		margin-left : 0;
+		margin-right: 0;
 	}
 
-	.clinics-patner-block:nth-child(2),
-	.clinics-patner-block:nth-child(5) {
-		margin-right: 21px;
+	.clinics-patner-block:nth-child(4) {
+		margin-bottom: 16px;
+		margin-left  : 0;
+	}
+
+	.clinics-patner-block:nth-child(2) {
+		margin-right: 0;
 		margin-left : 0;
+		margin-top  : 0;
+	}
+
+	.clinics-patner-block:nth-child(5) {
+		margin-right : 0;
+		margin-left  : 0;
+		margin-bottom: 16px;
 	}
 
 	.info-partner:nth-child(2) {
 		margin-top   : 2px;
 		margin-bottom: 19px;
 		margin-left  : 0;
+	}
+
+	.info-partners__blocks {
+		display        : flex;
+		margin-top     : 25px;
+		flex-wrap      : wrap;
+		width          : 100%;
+		justify-content: center;
 	}
 
 	.info-partner,
@@ -819,6 +842,10 @@
 		flex-shrink  : 0;
 		margin-bottom: 16px;
 		margin-left  : 0;
+	}
+
+	.info-partner:nth-child(6) {
+		margin-right: 0;
 	}
 
 	.clinics-patner-block:nth-child(8) {
@@ -869,12 +896,11 @@
 	}
 
 	.info-partners__headline {
-		font-size   : 28px;
-		width       : 85vw;
-		height      : auto;
-		padding-left: 17px;
-		display     : flex;
-		align-self  : flex-start;
+		font-size : 28px;
+		width     : 85vw;
+		height    : auto;
+		display   : flex;
+		align-self: flex-start;
 	}
 
 	.how-become-client__form-blocks_offer-text {
@@ -992,7 +1018,7 @@
 		margin-top : 296px;
 		color      : #D0BE96;
 		text-align : center;
-		font-family: DIN Pro;
+		font-family: 'DIN Pro Condensed';
 		font-size  : 14px;
 		font-style : normal;
 		font-weight: 500;

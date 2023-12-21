@@ -1,7 +1,7 @@
 @font-face {
 	font-family: 'DIN Pro';
 	font-style : normal;
-	src        : url('../fonts/DIN-Pro/DINPro.woff2');
+	src        : url('../fonts/DIN-Pro/din_pro_condensed_regular.woff2');
 }
 
 * {
@@ -279,13 +279,6 @@ header {
 	width      : 98.14px;
 	height     : 58.489px;
 	flex-shrink: 0;
-}
-
-.hepru {
-	width      : 108.482px;
-	height     : 42.091px;
-	display    : flex;
-	margin-left: 13px;
 }
 
 .info-frame-mobile-big {
