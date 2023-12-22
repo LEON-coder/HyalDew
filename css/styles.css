@@ -187,8 +187,7 @@ header {
 }
 
 .header__pagination {
-	display     : flex;
-	padding-left: 57px;
+	display: flex;
 }
 
 .info-partners__headline_line {
@@ -684,7 +683,7 @@ footer {
 
 .footer__phone {
 	color          : #D0BE96;
-	font-family    : 'DIN Pro';
+	font-family    : 'DIN Pro Condensed';
 	font-size      : 16px;
 	font-style     : normal;
 	font-weight    : 500;
@@ -733,7 +732,7 @@ footer {
 	flex-shrink: 0;
 	color      : #D0BE96;
 	text-align : center;
-	font-family: 'DIN Pro';
+	font-family: 'DIN Pro Condensed';
 	font-size  : 14px;
 	font-style : normal;
 	font-weight: 500;

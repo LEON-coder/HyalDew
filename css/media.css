@@ -937,11 +937,7 @@
 	}
 
 	.logo_block {
-		display       : flex;
-		flex-direction: column;
-		width         : 212.722px;
-		height        : 64.424px;
-		flex-shrink   : 0;
+		width: 80%;
 	}
 
 	.logo {
@@ -1165,7 +1161,7 @@
 		margin-left  : 0;
 		box-sizing   : border-box;
 		padding-left : 21px;
-		margin-bottom: 200px;
+		margin-bottom: 40px;
 	}
 
 	.footer__sections-all-wrap {
@@ -1175,18 +1171,19 @@
 	}
 
 	.footer__section-2 {
-		margin-left: 0px;
+		top: 205px;
+	}
+
+	.footer-logo-mobile {
+		width      : auto;
+		height     : auto;
+		flex-shrink: 0;
 		display    : flex;
-		position   : absolute;
-		top        : 160px;
 	}
 
 	.footer__section-phones {
-		display       : flex;
-		flex-direction: column;
-		position      : absolute;
-		right         : 10px;
-		top           : 40px;
+		right: 60px;
+		top  : 80px;
 	}
 
 	.footer__social-blocks:last-child {
@@ -1197,48 +1194,45 @@
 	}
 
 	.footer__licenze {
-		flex-shrink: 0;
-		margin-top : 296px;
-		color      : #D0BE96;
-		text-align : center;
-		font-family: 'DIN Pro Condensed';
-		font-size  : 14px;
-		font-style : normal;
-		font-weight: 500;
-		line-height: normal;
-		width      : 100%;
+		flex-shrink  : 0;
+		margin-top   : 380px;
+		color        : #D0BE96;
+		text-align   : center;
+		font-family  : 'DIN Pro Condensed';
+		font-style   : normal;
+		font-weight  : 500;
+		line-height  : normal;
+		width        : 90%;
+		font-size    : 26px;
+		margin-bottom: 80px;
 	}
 
 	.policy-mobile {
 		position: absolute;
-		top     : 230px;
-		left    : 22%;
+		top     : 300px;
+		left    : 15%;
 	}
 
 	.footer__email,
 	.footer__insta {
-		color          : #FFF;
-		font-family    : 'DIN Pro Condensed';
-		font-size      : 16px;
-		font-style     : normal;
-		font-weight    : 500;
-		line-height    : normal;
-		text-decoration: none;
+		font-family: 'DIN Pro Condensed';
+		font-size  : 26px;
 	}
 
 	.footer__email {
 		margin-top: 75px;
+	}
+
+	.social-block {
+		margin-right: 16px;
+		cursor      : pointer;
 	}
 }
 
 @media screen and (max-width: 320px) {
 
 	.logo_block {
-		display       : flex;
-		flex-direction: column;
-		width         : 140.722px;
-		height        : 64.424px;
-		flex-shrink   : 0;
+		width: 80%;
 	}
 
 	.header__burger-icon {
@@ -1261,5 +1255,12 @@
 		line-height  : normal;
 		width        : 100%;
 		padding-right: 10px;
+	}
+
+	.footer-logo-mobile {
+		width      : auto;
+		height     : auto;
+		flex-shrink: 0;
+		display    : flex;
 	}
 }
