@@ -634,11 +634,11 @@ footer {
 }
 
 .footer__wrap {
-	width         : 730.653px;
 	display       : flex;
 	margin-top    : 41px;
-	margin-left   : 120px;
+	margin-left   : 0;
 	flex-direction: column;
+	width         : 621.981px;
 }
 
 .footer__sections-all-wrap {
