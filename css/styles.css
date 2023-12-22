@@ -10,6 +10,9 @@
 	box-sizing: border-box;
 }
 
+img {
+	width: 100%;
+}
 
 body {
 	display       : flex;
@@ -33,15 +36,13 @@ body {
 
 header {
 	display    : flex;
-	width      : 736.805px;
 	height     : 127.336px;
 	flex-shrink: 0;
 	margin-top : 0;
+	width      : 100%;
 }
 
 .logo {
-	width      : 224.847px;
-	height     : 94.054px;
 	flex-shrink: 0;
 	cursor     : pointer;
 }
@@ -57,8 +58,7 @@ header {
 	display        : flex;
 	justify-content: space-between;
 	width          : 100%;
-	padding-left   : 12px;
-	padding-right  : 55px;
+	flex-wrap      : wrap;
 }
 
 .header__button-block {
@@ -149,7 +149,6 @@ header {
 .logo_block {
 	display       : flex;
 	flex-direction: column;
-	width         : 161.714px;
 	flex-shrink   : 0;
 }
 
@@ -193,7 +192,7 @@ header {
 }
 
 .info-partners__headline_line {
-	width      : 621.981px;
+	width      : 100%;
 	height     : 2.501px;
 	flex-shrink: 0;
 	background : #D0BE96;
@@ -201,11 +200,12 @@ header {
 }
 
 .info-partners__blocks {
-	display    : flex;
-	width      : 100%;
-	margin-top : 27px;
-	flex-wrap  : wrap;
-	margin-left: 0px;
+	display        : flex;
+	width          : 100%;
+	margin-top     : 27px;
+	flex-wrap      : wrap;
+	margin-left    : 0px;
+	justify-content: space-between;
 }
 
 .info-partner {
@@ -217,17 +217,12 @@ header {
 	flex-shrink    : 0;
 	position       : relative;
 	margin-left    : 0;
+	margin-right   : 19px;
 }
 
 .info-partner:nth-child(3) {
 	margin-bottom: 16px;
 	margin-right : 0;
-}
-
-.info-partner:nth-child(2),
-.info-partner:nth-child(5),
-.info-partner:nth-child(8) {
-	margin-left: 18px;
 }
 
 .info-partner:nth-child(6) {
@@ -253,6 +248,28 @@ header {
 .Distributors {
 	display   : flex;
 	margin-top: 75px;
+}
+
+.Distributors__blocks {
+	display        : flex;
+	margin-top     : 25px;
+	flex-wrap      : wrap;
+	width          : 100%;
+	justify-content: space-between;
+}
+
+.Distributor-partner:nth-child(3) {
+	margin-bottom: 17px;
+}
+
+.Distributor-partner {
+	display        : flex;
+	justify-content: center;
+	align-items    : center;
+	width          : 192.57px;
+	height         : 70.645px;
+	flex-shrink    : 0;
+	position       : relative;
 }
 
 .Distributors__wrap {
@@ -290,10 +307,6 @@ header {
 	display        : flex;
 	justify-content: center;
 	align-items    : center;
-}
-
-.mr-modify {
-	margin-right: 0;
 }
 
 .cosmetology-mobile {
@@ -354,19 +367,13 @@ header {
 	position       : relative;
 }
 
-.clinics-patner-block:nth-child(2) {
-	margin-left  : 22px;
-	margin-bottom: 16px;
-}
-
 .clinics-patner-block:nth-child(4) {
 	margin-bottom: 16px;
 }
 
-.clinics-patner-block:nth-child(2),
-.clinics-patner-block:nth-child(5) {
-	margin-right: 21px;
-	margin-left : 22px;
+.clinics-patner-block:nth-child(2) {
+	margin-left  : 0;
+	margin-bottom: 16px;
 }
 
 .clinics-patner-block:nth-child(8) {
