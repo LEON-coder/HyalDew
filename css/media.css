@@ -937,7 +937,7 @@
 	}
 
 	.logo_block {
-		width: 80%;
+		width: 220px;
 	}
 
 	.logo {
@@ -946,6 +946,7 @@
 
 	.logo-mobile {
 		display: flex;
+		width  : 100%;
 	}
 
 	.back-phone {
@@ -1175,7 +1176,7 @@
 	}
 
 	.footer-logo-mobile {
-		width      : auto;
+		width      : 70%;
 		height     : auto;
 		flex-shrink: 0;
 		display    : flex;
