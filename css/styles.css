@@ -490,6 +490,7 @@ header {
 .how-become-client__wrap {
 	display       : flex;
 	flex-direction: column;
+	width         : 100%;
 }
 
 .how-become-client__form-blocks {
