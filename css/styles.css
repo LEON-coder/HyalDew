@@ -262,6 +262,10 @@ header {
 	margin-bottom: 17px;
 }
 
+.Distributor-partner:last-child {
+	margin-top: 17px;
+}
+
 .Distributor-partner {
 	display        : flex;
 	justify-content: center;
