@@ -143,16 +143,11 @@
 		flex-shrink    : 0;
 		position       : relative;
 		margin-left    : 0;
-		margin-right   : 19px;
+		margin-right   : 17px;
 		width          : 262.883px;
 		height         : 96.44px;
 		flex-shrink    : 0;
-	}
-
-
-	.info-partner {
-		margin-bottom: 19px;
-		margin-left  : 0;
+		margin-bottom  : 19px;
 	}
 
 	.info-partner:nth-child(2) {
@@ -484,7 +479,7 @@
 	.policy-mobile {
 		position: absolute;
 		top     : 300px;
-		left    : 16%;
+		left    : 25%;
 	}
 
 	.policy-mt {
@@ -659,7 +654,10 @@
 
 	.footer__licenze {
 		margin-top: 350px;
-		width     : auto;
+		width     : 78%;
+		font-size : 26px;
+		text-align: center;
+		align-self: center;
 	}
 }
 
