@@ -132,15 +132,31 @@
 
 	.info-partners__headline_line {
 		width     : 100%;
-		background: #D0BE96;
-		margin-top: 6px;
 		height    : 3.645px;
+		box-sizing: border-box;
+	}
+
+	.info-partner {
+		display        : flex;
+		justify-content: center;
+		align-items    : center;
+		flex-shrink    : 0;
+		position       : relative;
+		margin-left    : 0;
+		margin-right   : 19px;
+		width          : 262.883px;
+		height         : 96.44px;
+		flex-shrink    : 0;
 	}
 
 
 	.info-partner {
 		margin-bottom: 19px;
 		margin-left  : 0;
+	}
+
+	.info-partner:nth-child(2) {
+		margin-right: 0;
 	}
 
 	.Distributor-partner:last-child {
@@ -157,6 +173,15 @@
 		flex-shrink    : 0;
 		margin-bottom  : 16px;
 		width          : 262.883px;
+		margin-right   : 17px;
+	}
+
+
+	.clinics-patner-block:nth-child(2),
+	.clinics-patner-block:nth-child(4),
+	.clinics-patner-block:nth-child(6),
+	.clinics-patner-block:nth-child(8) {
+		margin-right: 0;
 	}
 
 	.info-frame {
@@ -340,12 +365,6 @@
 		margin-left  : 0;
 	}
 
-	.clinics-patner-block:nth-child(5) {
-		margin-right : 0;
-		margin-left  : 0;
-		margin-bottom: 16px;
-	}
-
 	.info-partners__wrap {
 		display  : flex;
 		width    : 100%;
@@ -353,7 +372,7 @@
 	}
 
 	.info-partners__blocks {
-		justify-content: space-between;
+		justify-content: center;
 		width          : 100%;
 	}
 
@@ -443,20 +462,6 @@
 		position      : absolute;
 		right         : 80px;
 		top           : 70px;
-	}
-
-	.footer__licenze {
-		margin-top  : 350px;
-		color       : #D0BE96;
-		text-align  : center;
-		font-size   : 19px;
-		font-style  : normal;
-		font-weight : 500;
-		line-height : normal;
-		width       : 80%;
-		flex-shrink : 0;
-		margin-left : auto;
-		margin-right: auto;
 	}
 
 	.policy-block__item,
@@ -791,16 +796,30 @@
 
 
 	.info-partners__headline_line {
-		width     : 100%;
-		background: #D0BE96;
-		margin-top: 6px;
-		height    : 3.645px;
+		width      : 100%;
+		background : #D0BE96;
+		margin-top : 6px;
+		height     : 3.645px;
+		margin-left: 0;
 	}
 
+	.info-partner {
+		margin-bottom  : 19px;
+		margin-left    : 0;
+		display        : flex;
+		justify-content: center;
+		align-items    : center;
+		position       : relative;
+		max-width      : 262.883px;
+		height         : 96.44px;
+		flex-shrink    : 0;
+		width          : 100%;
+	}
 
 	.info-partner {
 		margin-bottom: 19px;
 		margin-left  : 0;
+		margin-right : 0;
 	}
 
 	.Distributor-partner:last-child {
@@ -1013,7 +1032,7 @@
 	}
 
 	.info-partners__blocks {
-		justify-content: space-between;
+		justify-content: center;
 		width          : 100%;
 		max-width      : 572px;
 	}
@@ -1032,11 +1051,8 @@
 	}
 
 	.Distributors__blocks {
-		display        : flex;
-		margin-top     : 25px;
-		flex-wrap      : wrap;
 		width          : 100%;
-		justify-content: space-between;
+		justify-content: center;
 	}
 
 	.info-partner-big-block {
@@ -1107,17 +1123,8 @@
 	}
 
 	.footer__licenze {
-		margin-top  : 350px;
-		color       : #D0BE96;
-		text-align  : center;
-		font-size   : 19px;
-		font-style  : normal;
-		font-weight : 500;
-		line-height : normal;
-		width       : 80%;
-		flex-shrink : 0;
-		margin-left : auto;
-		margin-right: auto;
+		margin-top: 350px;
+		width     : 90%;
 	}
 
 	.policy-block__item,
@@ -1163,9 +1170,10 @@
 	}
 
 	.info-partners__headline {
-		font-size: 28px;
-		width    : 72vw;
-		height   : auto;
+		font-size  : 28px;
+		width      : 72vw;
+		height     : auto;
+		margin-left: 0;
 	}
 
 	.how-become-client__wrap {
@@ -1270,6 +1278,7 @@
 		flex-direction: column;
 		flex-shrink   : 0;
 		margin-left   : 0;
+		width         : 40vw;
 	}
 
 	.VK,
@@ -1313,10 +1322,7 @@
 		line-height    : normal;
 	}
 
-	.footer__licenze {
-		margin-top: 350px;
-		width     : auto;
-	}
+
 }
 
 @media screen and (max-width: 425px) {
