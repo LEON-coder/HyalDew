@@ -170,7 +170,7 @@ header {
 	height      : 39.508px;
 	flex-shrink : 0;
 	color       : #3A4152;
-	font-family : 'DIN Pro';
+	font-family : 'DIN Pro Condensed';
 	font-size   : 27px;
 	font-style  : normal;
 	font-weight : 500;
@@ -532,9 +532,9 @@ header {
 	margin-top    : 20px;
 }
 
-input:focus-visible {
-	border        : none;
-	outline-offset: 0px;
+input:focus {
+	border : none;
+	outline: none;
 }
 
 .form__input:first-child {
@@ -589,7 +589,7 @@ input:focus-visible {
 	display    : flex;
 	margin-left: 10px;
 	color      : #3A4152;
-	font-family: DIN Pro;
+	font-family: 'DIN Pro Condensed';
 	font-size  : 12px;
 	font-style : normal;
 	font-weight: 400;
